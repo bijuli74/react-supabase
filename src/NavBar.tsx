@@ -8,8 +8,6 @@ export default function NavBar() {
         <Link className="nav-logo-link" to="/">
           <img id="logo" className="nav-logo" src="./assets/react.svg" alt="logo" />
         </Link>
-
-
         <ul className="nav-right-list">
           <li className="nav-message-board-list-item">
             <Link to="/1" className="nav-message-board-link">

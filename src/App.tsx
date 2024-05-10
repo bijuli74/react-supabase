@@ -38,8 +38,6 @@ function App() {
   return <RouterProvider router={router} />;
 }
 
-export default App;
-
 function Layout() {
   return (
     <>
@@ -48,3 +46,5 @@ function Layout() {
     </>
   );
 }
+
+export default App;
